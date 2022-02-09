@@ -1,0 +1,80 @@
+@font-face {
+  font-family: Title-menu;
+  src: url(/fonts/title-do-menu/BreadleySans-Regular.ttf);
+} /* titulo do menu */
+@font-face {
+  font-family: Paragrafo-banner;
+  src: url(/fonts/paragrafo-banner/JAi_____.TTF);
+} /* paragrafo do banner na main */
+@font-face {
+  font-family: Patrick;
+  src: url(/fonts/Patrick&A/BreadleySans-Regular.ttf);
+} /* titulo do banner main */
+@font-face {
+  font-family: Texto-do-botao-banner-main;
+  src: url(/fonts/vamos-investir/Northern\ Worssley\ Free.ttf);
+}
+@font-face {
+  font-family: Footer;
+  src: url(/fonts/my-footer/Bohemian\ Soul.otf);
+  
+}
+@font-face {
+  font-family: Termos;
+  src: url(/fonts/h2/Cinzel-Regular.otf);
+}
+
+.container-menu > div> h1 {
+  color: white;
+  font-family: Title-menu;
+  font-size: 60px;
+} /* config fonts h1 do menu(Patrick INvestimentos) */
+
+a {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 23px;
+  color: rgb(255, 255, 255);
+} /* config fonts links do menu */
+
+.fundo-banner > p {
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  font-family: Paragrafo-banner;
+  font-size: 25px;
+} /* editando paragrafo do banner */
+.title-banner {
+  stop-opacity: 0;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+.fundo-banner > h1 {
+  font-family: Patrick;
+  font-size: 70px;
+}/* editando titulo do banner */
+
+.btn-banner > span {
+  font-family: Texto-do-botao-banner-main;
+  font-weight: 1000;
+  font-size: 30px;
+} /* texto do botao do banner vamos investir? */
+
+/* main conteudo abrindo */
+
+.conteudo > h1{
+  font-size: 40px;
+  font-family: sans-serif;
+  text-align: center;
+}
+/* main conteudo fechando */
+
+/* footer abrindo */
+.conteudo-footer > h2{
+  font-size: 20px;
+  font-family:Footer;
+  margin-top: 20px;
+  font-weight: 200;
+}
+/* footer fechando */

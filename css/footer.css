@@ -1,0 +1,20 @@
+/* abrindo footer */
+.footer-principal {
+  margin-top: 30%;
+  background-color: #f3f4f5;
+  max-height:350px;
+
+}
+
+.conteudo-footer {
+  color:black;
+  text-align: center;
+  position: relative;
+  bottom: 141px;
+  background-color: #f3f4f5;
+  height:350px ;
+}
+
+
+
+/* fechando footer */
